@@ -25,7 +25,7 @@ def embed_two_layer_ctf(cover_file, output_file, message_line, flag):
 if __name__ == "__main__":
     cover_image = "Sample.jpg"  # Your base image
     output_image = "stego_chase.png"
-    message_line = "Welcome To Round III of Cypher Chase which is CyberSleuths"
-    flag = "CTF{ssn-snuc_invente_day}"
+    message_line = "CTF{ssn-snuc_invente_day}"
+    flag = "https://github.com/cipherchase2627/elitespark-shelved"
 
     embed_two_layer_ctf(cover_image, output_image, message_line, flag)
